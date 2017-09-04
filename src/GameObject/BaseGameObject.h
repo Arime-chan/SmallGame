@@ -2,7 +2,7 @@
 
 namespace SmallGame
 {
-    namespace GameObject
+    namespace gameObject
     {
 
         class BaseGameObject

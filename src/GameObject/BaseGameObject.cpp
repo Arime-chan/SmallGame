@@ -3,7 +3,7 @@
 
 namespace SmallGame
 {
-    namespace GameObject
+    namespace gameObject
     {
 
         unsigned int BaseGameObject::OBJECT_COUNT = 0;
