@@ -8,12 +8,12 @@ namespace SmallGame
     {
         class Mob : public BaseGameObject
         {
-        private:
+		protected:
             int m_Type; // type of this mob: player, enemy, npc, ...;
             int m_Health; // hp of this mob: assume this mob have HP;
             int m_Mana; // mp of this mob: assume this mob can use spells;
 
-            BaseGameObject& m_Target; // the main target of this mob: assume the mob can locks on ONE target;
+            BaseGameObject* m_Target; // the main target of this mob: assume the mob can locks on ONE target;
 
         public:
             Mob();

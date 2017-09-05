@@ -8,9 +8,9 @@ namespace SmallGame
         Mob::Mob()
         {
             // let's assume every DEFAULT mob has the same stat;
-            m_Type = -1;
-            m_Health = 100;
-            m_Mana = 20;
+            m_Type = -1;			
+            m_Health = 100;			
+            m_Mana = 20;			
         }
 
         void Mob::attack()
